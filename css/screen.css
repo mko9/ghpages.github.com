@@ -1,0 +1,140 @@
+/*
+*/
+
+body {
+	background: #FFFFFF;
+	font-size: 13px;
+	font-family: Arial, Tahoma, Verdana;
+	margin: 0 auto 0;
+	padding: 0;
+	line-height: 20px;
+	}
+	
+p {
+	margin: 0;
+	padding: 0;
+	}
+	
+/***** Hyperlinks ********************/
+
+a, a:visited {
+	color: #006699;
+	text-decoration: underline;
+	}
+	
+a:hover {
+	color: #AC0101;
+	text-decoration: none;
+	}
+	
+a img {
+	border: none;
+	}
+	
+a:focus, a:hover, a:active {
+	outline: none;
+	}
+
+/***** Header  ********************/
+
+#header {
+	width: 960px; 
+	height: 80px;
+	margin: 0 auto 0;
+	}
+
+#title-area {
+	width: 480px;
+	float: left;
+	margin: 0; 
+	padding: 0;
+	overflow: hidden;
+	}
+	
+#title-area #title {
+	color: #333333;
+	font-size: 36px;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	text-decoration: none;
+	line-height: 42px;
+	}
+	
+#title-area #title a {
+	color: #333333;
+	margin: 0; 
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#title-area #title a:hover {
+	color: #333333;
+	text-decoration: none;
+	}
+	
+#title-area #description {
+	color: #666666;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0; 
+	padding: 0 0 0 20px;
+	}
+
+#header .widget-area {
+	width: 468px;
+	float: right;
+	margin: 0; 
+	padding: 10px 10px 0 0;
+	}
+	
+#header .widget-area p {
+	margin: 0;
+	padding: 0 0 5px 0;
+	}
+	
+#header .widget-area h4 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 10px 0 0 0; 
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#header .widget-area ul {
+	margin: 0;
+	padding: 0;
+	}
+	
+#header .widget-area ul li {
+	list-style-type: square;
+	margin: 0 0 0 20px;
+	padding: 0;
+	}
+	
+/***** Image Header - Partial Width ********************/
+
+.header-image #title-area, .header-image #title-area #title, .header-image #title-area #title a {
+	display: block; 
+	float: left;
+	width: 290px;
+	height: 80px;
+	text-indent: -9999px;
+	overflow: hidden;
+	}
+	
+.header-image #title-area #description {
+	display: block;
+	width: 0; 
+	height: 0;
+	overflow: hidden;
+	}
+
+/***** Image Header - Full Width ********************/
+
+.header-full-width #title-area, .header-full-width #title-area #title, .header-full-width #title-area #title a {
+	width: 960px;
+	}

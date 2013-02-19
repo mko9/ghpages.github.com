@@ -1,0 +1,21 @@
+<div id="sidebar" class="sidebar widget-area">
+    <div id="enews-3" class="widget enews-widget">
+        <div class="widget-wrap">
+            <div class="enews">
+                <h4 class="widgettitle">Email Newsletter</h4>
+
+                <p>Sign up to receive email updates and to hear what's going on with our
+                    company!</p>
+                <form id="subscribe" action="http://feedburner.google.com/fb/a/mailverify"
+                method="post" target="popupwindow" onsubmit="window.open( 'http://feedburner.google.com/fb/a/mailverify?uri=studiopress', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                    <input type="text" value="Enter your email address..." id="subbox" onfocus="if ( this.value == 'Enter your email address...') { this.value = ''; }"
+                    onblur="if ( this.value == '' ) { this.value = 'Enter your email address...'; }"
+                    name="email" />
+                    <input type="hidden" name="uri" value="studiopress" />
+                    <input type="hidden" name="loc" value="en_US" />
+                    <input type="submit" value="Go" id="subbutton" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div><!-- end #content-sidebar-wrap -->

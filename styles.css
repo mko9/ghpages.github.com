@@ -1,0 +1,326 @@
+/***** Wrap ********************/
+
+#wrap {
+	background: #FFFFFF;
+	width: 960px;
+	border-left: 1px solid #CACACA;
+	border-right: 1px solid #CACACA;
+	margin: auto;
+	padding: 0;
+	position: relative;
+	}
+
+/***** Inner ********************/
+
+#inner {
+	background: ;
+	width: 920px;
+	margin: 5px auto 5px;
+	padding: 0;
+	overflow: hidden;
+	}
+
+/***** Post-wrap ********************/
+
+#post-wrap {
+	width: 600px;
+	float: left;
+	margin: 0 auto 0;
+	padding: 0 auto 0;
+	display: inline;
+	}
+
+#post-wrap1 {
+	width: 100%;
+	float: left;
+	margin: 0 auto 0;
+	padding: 0 auto 0;
+	display: inline;
+	}
+
+.post {
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 15px;
+	text-align:justify;
+	position: relative;
+	}
+
+/***** Primary & Secondary Sidebars ********************/
+
+#sidebar {
+	width: 300px;
+	float: right;
+	display: inline;
+	}
+	
+#sidebar-alt {
+	width: 140px;
+	float: left;
+	display: inline;
+	}
+	
+#sidebar-bottom-left {
+	width: 145px;
+	float: left;
+	display: inline;
+	}
+	
+#sidebar-bottom-right {
+	width: 145px;
+	float: right;
+	display: inline;
+	}
+
+.sidebar-content #sidebar, .sidebar-sidebar-content #sidebar {
+	float: left;
+	}
+	
+.content-sidebar-sidebar #sidebar-alt {
+	float: right;
+	}
+
+#sidebar .widget, #sidebar-alt .widget {
+	margin: 0 0 20px 0;
+	padding: 0;
+	}
+	
+#sidebar embed, #sidebar object, #sidebar-alt embed, #sidebar-alt object {
+	width: 300px; 
+	height: 225px;
+	margin: 10px 0 0 0; 
+	padding: 0;
+	}
+	
+/***** Sidebar(s) Dropdowns ********************/
+	
+#cat, #sidebar .widget_archive select, #sidebar-alt .widget_archive select {
+	background: #F4F4F4;
+	width: 100%;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 10px 0 5px 0;
+	padding: 3px;
+	display: inline;
+	border: 1px solid #DDDDDD;
+	}
+
+/***** Sidebar(s) User Profile ********************/
+
+#sidebar .user-profile, #sidebar-alt .user-profile {
+	overflow: hidden;
+	}
+
+#sidebar .user-profile .avatar, #sidebar-alt .user-profile .avatar {
+	background: #F4F4F4;
+	float: left;
+	margin: 0;
+	padding: 4px;
+	border: 1px solid #DDDDDD;
+	}
+	
+#sidebar .user-profile p, #sidebar-alt .user-profile p {
+	margin: 0;
+	padding: 10px 10px 0 10px;
+	}
+
+#sidebar .user-profile .posts_link, #sidebar-alt .user-profile .posts_link {
+	margin: 0;
+	padding: 0 0 10px 10px;
+	}
+	
+/***** Buttons ********************/
+	
+#submit, .searchsubmit, .enews #subbutton, .gform_footer .button {
+	background: #444444 !important;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Tahoma, Verdana;
+	font-weight: bold !important;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 3px 5px 3px 5px;
+	border: 1px solid #444444;
+	}
+
+#submit:hover, .searchsubmit:hover, .enews #subbutton:hover, .gform_footer .button:hover {
+	background: #006699 !important;
+	text-decoration: none;
+	border: 1px solid #006699;
+	}
+	
+/***** Search Form(s) ********************/
+
+.searchform {
+	margin: 0;
+	}
+
+#header .searchform {
+	float: right;
+	padding: 40px 0 0 0;
+	}
+	
+#sidebar .searchform {
+	padding: 0;
+	}
+	
+#nav .searchform {
+	float: right;
+	padding: 0;
+	}
+	
+.s {
+	background: #F4F4F4 !important;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 12px;
+	margin: 0 5px 0 0;
+	padding: 4px 0 4px 5px;
+	border: 1px solid #DDDDDD;
+	-moz-box-shadow: 0 0 3px #CCCCCC inset;
+	-webkit-box-shadow: 0 0 3px #CCCCCC inset;
+	}
+	
+#header .s, #nav .s, #sidebar .s {
+	width: 215px;
+	}
+	
+#sidebar-alt .s {
+	width: 80px;
+	}
+	
+/***** eNews & Updates Widget ********************/
+
+.enews {
+	background: url(images/enews.png) no-repeat top RIGHT;
+	margin: 0;
+	padding: 0 0 5px 0;
+	}
+
+.enews #subscribe {
+	overflow: hidden;
+	}
+	
+.enews #subbox {
+	background: #F4F4F4 !important;
+	width: 240px;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 12px;
+	padding: 4px 0 4px 5px;
+	margin: 5px 8px 0 0;
+	border: 1px solid #DDDDDD;
+	-moz-box-shadow: 0 0 3px #CCCCCC inset;
+	-webkit-box-shadow: 0 0 3px #CCCCCC inset;
+	}
+
+/***** Latest Tweets Widget ********************/
+
+.latest-tweets {
+	background: url(images/twitter.png) top right no-repeat;
+	margin: 10px 0 0 0;
+	padding: 0;
+	}
+
+/***** Headlines ********************/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #333333;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	text-decoration: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+	}
+
+h1, h2 {
+	font-size: 22px;
+	}
+
+h2 a, h2 a:visited {
+	color: #333333;
+	text-decoration: none;
+	}
+	
+h2 a:hover {
+	color: #006699;
+	text-decoration: none;
+	}
+	
+#featured-top h2, #featured-top h2 a, #featured-bottom h2, #featured-bottom h2 a, #sidebar h2, #sidebar h2 a, #footer-widgets h2, #footer-widgets h2 a {
+	color: #333333;
+	font-size: 16px;
+	font-family: Georgia, Times New Roman, Trebuchet MS;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-decoration: none;
+	}
+	
+#featured-top h2 a:hover, #featured-bottom h2 a:hover, #sidebar h2 a:hover, #footer-widgets h2 a:hover {
+	color: #006699;
+	text-decoration: none;
+	}
+	
+#featured-top .ui-tabs h2, #featured-top .ui-tabs h2 a {
+	font-size: 20px;
+	margin: 0 0 5px 0;
+	}
+	
+#featured-bottom h2, #featured-bottom h2 a, #sidebar h2, #sidebar h2 a, #footer-widgets h2, #footer-widgets h2 a {
+	font-size: 14px;
+	margin: 0 !important;
+	}
+	
+h3 {
+	font-size: 18px;
+	}
+	
+h4 {
+	font-size: 16px;
+	}
+	
+#content #featured-top h4, #content #featured-bottom h4, #sidebar h4, #sidebar-alt h4, #footer-widgets h4 {
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+	padding: 5px 0 5px 5px;
+	border-top: 3px solid #CCCCCC;
+	border-bottom: 1px dotted #AAAAAA;
+	}
+
+#sidebar h4, #sidebar-alt h4 {
+	margin: 0 0 5px 0;
+	}
+
+#footer-widgets h4 {
+	margin: 2px 0 10px 0;
+	padding: 5px 0 5px 5px;
+	border-top: none;
+	border-bottom: 1px dotted #AAAAAA;
+	}
+	
+h5 {
+	font-size: 14px;
+	}
+
+h6 {
+	font-size: 12px;
+	}
+	
+h7 {
+	font-size: 17px;
+	}
+
+h8 {
+	font-size: 18px;
+	}
+
+h9 {
+	font-size: 19px;
+	}

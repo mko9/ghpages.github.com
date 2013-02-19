@@ -1,0 +1,35 @@
+---
+layout: site
+overview: true
+title: luySec Miscellaneous
+---
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <h1><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h2><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h3><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h4><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h4>
+        <h5><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h5>
+        <h6><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h6>
+        <h7><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h7>
+        <h8><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h8>
+        <h9><span class="post-meta">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></h9>
+		</li>
+    {% endfor %}
+  </ul>
+
+    <ul>
+      {% for page in site.html_pages %}
+        {% if page.title %}
+          {% if page.showinnav == true %}
+            <li><a href="{{ page.url | remove:'index.html' }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul>
+      {% for post in site.categories.blog %}
+        <li><a href="{{ post.url }}/">{{ post.title }}</a><br/><span class="blogpostdate">{{ post.date | date_to_string }}</span></li>
+      {% endfor %}
+    </ul>
