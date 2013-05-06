@@ -1,3 +1,5 @@
+occurance
+https;//github.com/mko9/occurance/occurance
 ---
 layout: post
 title: Rejected Bio from The Setup
@@ -107,4 +109,4 @@ I think I made the right decision.
 
 Today GitHub has twenty-nine employees and more than 730,000 users with over
 2,000,000 repositories. We're growing fast, and I'm having the time of
-my life!
+xx
